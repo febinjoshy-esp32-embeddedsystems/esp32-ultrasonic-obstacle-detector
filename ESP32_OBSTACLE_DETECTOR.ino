@@ -1,11 +1,11 @@
 #include<BluetoothSerial.h>
 #include<Wire.h>
 #include<LiquidCrystal_I2C.h>
-#define trig 5
-#define echo 18
-#define red 25
-#define blue 26
-#define buzzer 33
+#define trig 5 //trigpin of ultrasonic sensor
+#define echo 18 //echopin of ultraonic sensor
+#define red 25 //red LED via 220 ohm resistor
+#define blue 26 //blue LED via 220 ohm resistor
+#define buzzer 33 //buzzerpin of active buzzer
 BluetoothSerial SerialBT;
 LiquidCrystal_I2C lcd(0x27,16,2);
 bool in=false;
