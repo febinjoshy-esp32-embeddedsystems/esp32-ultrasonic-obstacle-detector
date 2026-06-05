@@ -44,7 +44,7 @@ Click the image below to watch the obstacle detection in action:
 ### Hardware Setup
 ![Full Setup](setup.jpg)
 **ESP32 + HC-SR04 ultrasonic sensor + 16x2 I2C LCD wired on breadboard**  
-LCD shows "NOT CONNECTED" state before detection starts.
+LCD shows "NOT CONNECTED" state before pairing via bluetooth.
 
 ### Live Test
 ![Working Circuit](working.jpg)
