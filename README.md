@@ -34,6 +34,26 @@ Non-blocking obstacle detector using ESP32,HC-SR04 ultrasonic sensor,I2C LCD wit
 
 ## HIGHLIGHTS 
 -Non-blocking timing using 'millis()' instead of 'delay()'
+## DEMO
+
+### Working Demo
+Click the image below to watch the obstacle detection in action:
+
+[![Watch Demo](setup.jpg)](running.mp4)
+
+### Hardware Setup
+![Full Setup](setup.jpg)
+**ESP32 + HC-SR04 ultrasonic sensor + 16x2 I2C LCD wired on breadboard**  
+LCD shows "NOT CONNECTED" state before detection starts.
+
+### Live Test
+![Working Circuit](working.jpg)
+**LED turns on when obstacle detected within 30cm**
+
+### Serial Output via Bluetooth
+![Bluetooth Terminal](Serial%20bluetooth%20terminal.jpg)
+**Real-time distance data sent to Serial Bluetooth Terminal app**
+
 
 ## AUTHOR 
 Febin Joshy|June 2026
