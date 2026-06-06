@@ -23,7 +23,7 @@ Non-blocking obstacle detector using ESP32, HC-SR04 ultrasonic sensor, I2C LCD w
 ## HOW TO RUN
 
 1. **Wire the components**
-   - Connect HC-SR04, I2C LCD, buzzer, and LEDs to ESP32 pins defined as macros in the code.
+   - Connect HC-SR04, I2C LCD, buzzer, and LEDs to ESP32 pins shown in the circuit diagram.
    - VCC → VIN, GND → GND on ESP32 for all components.
    - LEDs and active buzzer connect to GPIO pins as mentioned in the code.
 
@@ -52,6 +52,10 @@ Click the image below to watch the obstacle detection in action:
 ![Full Setup](setup.jpg)
 **ESP32 + HC-SR04 ultrasonic sensor + 16x2 I2C LCD wired on breadboard**  
 LCD shows "NOT CONNECTED" state before pairing via Bluetooth.
+
+### Circuit Diagram
+![Circuit Diagram](circuit_diagram.jpg)
+**Circuit Diagram labeled with all components essential for the non-blocking ultrasonic obstacle detector**
 
 ### Live Test
 ![Working Circuit](working.jpg)
