@@ -59,7 +59,7 @@ LCD shows "NOT CONNECTED" state before pairing via Bluetooth.
 
 ### Live Test
 ![Working Circuit](working.jpg)
-**LED turns on when obstacle detected within 30cm**
+**LED turns on when obstacle detected within the range of 2cm and 300cm**
 
 ### Serial Output via Bluetooth
 ![Bluetooth Terminal](Serial%20bluetooth%20terminal.jpg)
